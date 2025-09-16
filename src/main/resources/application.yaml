@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ead-api-gateway
+
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id:
